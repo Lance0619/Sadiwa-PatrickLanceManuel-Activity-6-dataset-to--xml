@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE FilipinoCuisine[
+
+	<!ELEMENT FilipinoCuisine (home, menu)>
+	<!ELEMENT home (FilipinosFamousRecipes)>
+	<!ELEMENT FilipinosFamousRecipes (pork, chicken, beef)>
+	<!ELEMENT pork (recipe1, recipe2)>
+	<!ELEMENT chicken (recipe1, recipe2)>
+	<!ELEMENT beef (recipe1, recipe2)>
+
+	<!ELEMENT menu (Recipes-pork, recipes-chicken, Recipes-beef, Recipes-seafood)>
+	<!ELEMENT Recipes-pork (adobo, crispy-pata)>
+	<!ELEMENT recipes-chicken (chicken-curry, pininyahang-manok)>
+	<!ELEMENT Recipes-beef (beef-tapa, sizzling-bulalo)>
+
+	<!ELEMENT adobo (ingredients, procedure)>
+	<!ELEMENT crispy-pata (ingredients, procedure)>
+	<!ELEMENT chicken-curry (ingredients, procedure)>
+	<!ELEMENT pininyahang-manok (ingredients, procedure)>
+	<!ELEMENT beef-tapa (ingredients, procedure)>
+	<!ELEMENT sizzling-bulalo (ingredients, procedure)>
+
+
+	<!ELEMENT home (#PCDATA)>
+	<!ELEMENT menu (#PCDATA)>
+	<!ELEMENT FilipinosFamousRecipes (#PCDATA)>
+	<!ELEMENT pork (#PCDATA)>
+	<!ELEMENT chicken (#PCDATA)>
+	<!ELEMENT beef (#PCDATA)>
+	<!ELEMENT recipe1 (#PCDATA)>
+	<!ELEMENT recipe2 (#PCDATA)>
+	<!ELEMENT Recipes-pork (#PCDATA)>
+	<!ELEMENT recipes-chicken (#PCDATA)>
+	<!ELEMENT Recipes-beef (#PCDATA)>
+	<!ELEMENT adobo (#PCDATA)>
+	<!ELEMENT crispy-pata (#PCDATA)>
+	<!ELEMENT chicken-curry (#PCDATA)>
+	<!ELEMENT pininyahang-manok (#PCDATA)>
+	<!ELEMENT beef-tapa (#PCDATA)>
+	<!ELEMENT sizzling-bulalo (#PCDATA)>
+	<!ELEMENT home (#PCDATA)>
+
+	]>
+
+<FilipinoCuisine>
+	<home>
+		<FilipinosFamousRecipes>
+			<pork>
+				<recipe1>Adobo</recipe1>
+				<recipe2>Crispy Pata</recipe2>
+			</pork>
+
+			<chicken>
+				<recipe1>Chicken Curry</recipe1>
+				<recipe2>Pininyahang Manok</recipe2>
+			</chicken>
+
+			<beef>
+				<recipe1>Beef Tapa</recipe1>
+				<recipe2>Sizzling Bulalo</recipe2>
+			</beef>
+		</FilipinosFamousRecipes>
+	</home>
+
+	<menu>
+		<Recipes-pork>
+			<adobo>
+				<ingredients>
+				<p>2 lbs pork belly</p> 
+				<p>2 tablespoons garlic minced or crushed</p>
+				<p>1 cup onion, minced</p>
+				<p>4 tablespoons vinegar</p>
+				<p>1 tsp ground black pepper</p>
+				<p>5 pieces dried bay leaves</p>
+				<p>1/2 cup soy sauce</p>
+				<p>2 cups water</p>
+				<p>Salt to taste</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour</p>	
+				<p>Step 2: Heat the pot and put-in the marinated pork belly then cook for a few minutes</p>
+				<p>Step 3: Pour remaining marinade including garlic.</p>
+				<p>Step 4: Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour</p>
+				<p>Step 5: Put-in the vinegar and simmer for 12 to 15 minutes</p>
+				<p>Step 6: Add salt to taste</p>
+				<p>Step 7: Serve hot. Share and enjoy!</p>
+				
+				</procedure>
+			</adobo>
+
+			<crispy-pata>
+				<ingredients>
+				<p>* 1 wholw pig's leg (pata; about 3 to 4 lbs), cleaned</p> 
+				<p>* 6 pieces dried bay leaves</p>
+				<p>* 2 tablespoons whole peppercorn</p>
+				<p>* 4 to 6 pieces star anise (optional)</p>
+				<p>* 6 tablespoons salt</p>
+				<p>* 2 teaspoons ground black pepper</p>
+				<p>* 2 to 3 teaspoons garlic powder</p>
+				<p>* 12 to 15 cups water</p>
+				<p>* 8 to 12 cups cooking oil</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Pour water in a cooking pot then let boil</p>	
+				<p>Step 2: Put-in dried bay leaves, whole peppercorn, star anise, and 4 teaspoons of salt</p>
+				<p>Step 3: Add the whole pig's leg in the cooking pot then simmer until the leg becomes tender (about 45 to 60 minutes)</p>
+				<p>Step 4: Remove the tender leg from the cooking pot and set aside until the temperature goes down</p>
+				<p>Step 5: Rub the leg with garlic powder, ground black pepper, and remaining salt. Let stand for 15 minutes to absorb the rub</p>
+				<p>Step 6: Heat a clean large cooking pot (preferably with cover) and pour-n the cooking oil</p>
+				<p>Step 7: When the oil becomes hot, deep fry the rubbed pork leg. Continue cooking in medium heat until one side becomes crispy, and then cautiously flip the leg to crisp the other side. Note: Be extra careful in doing this procedure.</p>
+				<p>Step 8: Turn-off the heat; remove the crispy pork leg; and transfer it to a wide serving plate.</p>
+				</procedure>
+			</crispy-pata>
+		</Recipes-pork>
+
+
+		<recipes-chicken>
+			<chicken-curry>
+				<ingredients>
+				<p>* 1 kl Chicken</p>
+				<p>* 2 medium size potato, chopped</p>
+				<p>* 1 big carrot, sliced</p>
+				<p>* 1 tbsp garlic, minced</p>
+				<p>* 3 stalks ciliry, cut into 2 inches lengths</p>
+				<p>* 1 mideum onion, chopped</p>
+				<p>* 1 small red bell pepper, cut into cubet</p>
+				<p>* 2 tbsp fish sauce</p>
+				<p>* 1 cup coconut milk</p>
+				<p>* 2 tbsp curry powder</p>
+				<p>* 1 thumb ginger, cut stripes</p>
+				<p>* 1 cup water</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Cut the chichen into pieces. Leave the chicken bone in. If you prepare bone chicken meat,then de-bone the chicken</p>
+				<p>Step 2: Heat up the a deep pot and add the oil</p>
+				<p>Step 3: Fried the potato and carrot for 2 mins and set asider</p>
+				<p>Step 4: Saute chicken together with garlic, onion and ginger</p>
+				<p>Step 5: When garlic is lighjt brown in color add fish sause and curry power</p>
+				<p>Step 6: Stire well then add water then cover the pot and lower the heat to mideum and simmer until the chicken is tender</p>
+				<p>Step 7: Once the chicken is cooked, add the red bell pepper, ciliry, carrot and potato then simmer for 5 minutes.</p>
+				<p>Step 8: Add the coconut milk and mix well.Simmer for another 5 minutes</p>
+				<p>Step 9: Serve hot with rice.</p>
+				</procedure>
+			</chicken-curry>
+
+			<pininyahang-manok>
+				<ingredients>
+				<p>* 1 whole Chicken</p>
+				<p>* 1 whole onion, chopped</p>
+				<p>* 1 whole garlic, minced/p></p>
+				<p>* 2 tbsp olive oil</p>
+				<p>* 2 medium size potatoes, peeled and quartered(can be smaller)</p>
+				<p>* 2 medium size carrot, peeled cut into one size</p>
+				<p>* 1 red bell pepper, cut into approx 1 square inch</p>
+				<p>* 2 tbsp fish sauce or patis</p>
+				<p>* Dash of pepper</p>
+				<p>* 2 tbsp tickles</p>
+				<p>* 1 can (500g) pineapple chuncks in syrup</p>
+				<p>* 3/4 cup evaporated milk(or fresh milk, but better result with evap)</p>
+				<p>* 1/2 cup grated cheese</p>					
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Chop the chicken into samll pieces</p>
+				<p>Step 2: Heat a medium dutch oven (or any pan you prapare). When its hot, put olive oil and heat it up, saute garlic until golden brown, add the onion until it become transparent</p>
+				<p>Step 3: Add the chicken and saute for about a minutes, then add patis(add depending on your taste). Mix then add pepper and pickles. Simmer then cover. Juices will start to come out</p>
+				<p>Step 4: Wait until chicken is half cooked then add the pineapple chunks including the syrup.</p>
+				<p>Step 5:When the chicken is cooked, add carrots and potatoes.Simmer until the vegetables are cooked</p>
+				<p>Step 6: Add bell pepper, then stir and bring back to boil.</p>
+				<p>Step 7: Add the milk then cheese until melted.</p>
+				</procedure>				
+			</pininyahang-manok>
+		</recipes-chicken>
+
+
+		<Recipes-beef>
+			<beef-tapa>
+				<ingredients>
+				<p>* 1/2 kilo beef sirloin, thinly sliced</p>
+				<p>* 2 tbsp sugar</p>
+				<p>* 1 tsp ground black pepper</p>
+				<p>* 1 cup soy sauce</p>
+				<p>* 3 tbsp minced garlic</p>
+				<p>* 1 tsp salt</p>
+				<p>* 1 Clear platic bag (we recommend Ziploc)</p>
+				</ingredients>
+				<procedure>
+				<p>To Marinate</p>
+				<p>Step 1: Combine in a container the following ingridients; soy sauce, garlic, salt, pepper, and sugar and mix well then set aside.</p>
+				<p>Step 2: After mixing all the ingridients place the beef in the clear plastic bag or Zoploc.</p>
+				<p>Step 3: Pour the mixed seasonings in the Ziploc with meat and mix well.</p>
+				<p>Step 4: Refrigerate the marinade for a minimum of 12 hours.</p>
+				<p>How to cook beef tapa</p>
+				<p>Step 1: In a pan, place 2 cups of of water and bring to a boil .</p>
+				<p>Step 2: Add the marinated beef tapa and cook until the water evaporates.</p>
+				<P>Step 3: When all the water evaporated add 3 tbsp of cooking oil in the pan then fry the tapa until done.</P>
+				<P>Step 4: Serve with rice topped with fried egg and sliced tomatoes.</P>
+				</procedure>
+			</beef-tapa>
+
+			<sizzling-bulalo>
+				<ingredients>
+				<p>* 1 1/2 lbs beef shank</p>
+				<p>* 1 piece cooked sweet corn, cooked</p>
+				<p>* 10 onces condensed cream of mushroom soup</p>
+				<p>* 2 teaspoons garlic powder</p>
+				<p>* 1 1/2 cups fresh white mushrooms, sliced</p>
+				<p>* 4 tablespoons butter</p>
+				<p>* 2 tablespoons salt</p>
+				<p>* 1 teaspoon ground black pepper</p>
+				<p>* 3 3/4 cup of water</p>
+
+				</ingredients>
+				<procedure>
+				<p>Step 1: Make the mushroom gravy</p>
+				<p>Step 1.1: Heat a cooking pot or sauce pan then add the 1 tablespoon butter and melt</p>
+				<p>Step 1.2: Put-in the mushroom and saute for 3 minutes</p>
+				<p>Step 1.3: Add the condensed cream of mushroom soup then stir</p>
+				<p>Step 1.4: Pour 3/4 cup water; add 1/2 teaspoon salt and 1/2 teaspoon groundblack pepper then stir. Simmer for 5 minutes or until the sauce thickens</p>
+				<p>Step 1.5: Set aside</p>
+				<p>Step 3: Pour 3 cups of water and apply heat. Let boil and simmer until the beef is tender. Remove from the cooking pot and place in a clean plate. Note: Add water as needed.</p>
+				<p>Step 4: Season both side of beef with 1/2 teaspoon salt, 1/2 teaspoon ground black pepper, and garlic powder. Set aside.</p>
+				<p>Step 5: Heat a pan then add 2 tablespoons butter. Let the butter melt</p>
+				<p>Step 6: Pan-fry both sides of the beef for at least 2 minutes per side.</p>
+				<p>Step 7: Heat the sizzling plate (metal plate) then put-i 1 tablespoon butter and let melt it.</p>
+				<p>Step 8: Arrange the pan fried beef on the sizzling plate, top with mushroom gravy and place the corn on the side.</p>
+
+				</procedure>
+			</sizzling-bulalo>
+		</Recipes-beef>
+	</menu>
+</FilipinoCuisine>
